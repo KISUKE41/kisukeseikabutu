@@ -11,7 +11,7 @@ const studentPasswords = [
 
 
 // ===== Discord Webhook URL =====
-const webhookUrl = "https://discordapp.com/api/webhooks/1432296431401566258/Bq0Kx7izcPRHHsqnHO1Qe62pqw418twYt_MTI31yZd3Sskj-WIqQlj9PP4Xi2u2HUTCt";
+const webhookUrl = "https://discordapp.com/api/webhooks/";
 
 export default async function handler(req, res) {
   if (req.method !== 'POST') return res.status(405).json({ error: 'POSTのみ対応' });
